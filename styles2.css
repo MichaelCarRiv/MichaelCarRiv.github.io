@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('galeria/img2.jpeg') no-repeat center center fixed;
+    background-size: 50%;
+    background-color: #f0f0f0;
+  }
+  
+  nav {
+    background-color: #ff1493;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content-section {
+    display: none;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content-section.active {
+    display: block;
+  }
+  
